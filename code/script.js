@@ -58,7 +58,6 @@ function toggleMode() {
   }
 }
 
-// Apply stored theme on page load
 window.onload = () => {
   const theme = localStorage.getItem('theme') || 'light';
   const toggle = document.getElementById('modeToggle');
