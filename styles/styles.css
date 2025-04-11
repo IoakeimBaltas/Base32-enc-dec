@@ -1,0 +1,106 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif;
+    background: #f0f2f5;
+    color: #222;
+    padding: 40px 20px;
+  }
+  
+  /* Centered card container */
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Header */
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 25px;
+  }
+  
+  /* Textareas */
+  textarea {
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    transition: border 0.2s ease;
+  }
+  
+  textarea:focus {
+    outline: none;
+    border-color: #4A90E2;
+    background-color: #fff;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 18px;
+    font-size: 15px;
+    margin: 0 10px 20px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #4A90E2;
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  button:hover {
+    background-color: #357ABD;
+    transform: translateY(-1px);
+  }
+  
+  button:active {
+    transform: translateY(0);
+  }
+  
+  /* Output label */
+  h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #999;
+  }
+  
+  /* Responsive behavior */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Ioakeim Baltas" />
+
+  <title>Base32 Encoder/Decoder</title>
+  
+  <link rel="stylesheet" href="./styles/onoff.css">
+</head>
+<body>
+
+  <div class="mode-switch">
+
+    <input type="checkbox" id="modeToggle" onclick="toggleMode()">
+      <label for="modeToggle">night mode / light mode</label>
+
+  </div>
+
+  <div class="container">
+    <h2>Base32 Encoder & Decoder</h2>
+    <h3>Input:</h3>
+    <textarea id="inputText" rows="5" placeholder="Please place your text here..."></textarea>
+
+    <div>
+      <button onclick="encodeBase32()">Encode</button>
+      <button onclick="decodeBase32()">Decode</button>
+    </div>
+
+    <h3>Output:</h3>
+    <textarea id="outputText" rows="5" readonly></textarea>
+  </div>
+
+  <div class="footer">
+    &copy; all rights reserved to Mother ofall Demos s
+  <script src="./code/script.js"></script>
+</body>
+</html>
